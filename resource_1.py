@@ -21,4 +21,4 @@ class resource:
      print("MAchine Refilled successfully")
 
   def current_Status(user):
-     return f"water:user.water ml , coffeeBean=user.coffeeBean gm , MILK:user.milk ml,cups:user.cup"   
+     return f"water:{user.water} ml , coffeeBean={user.coffeeBean}gm , MILK:{user.milk}ml,cups:{user.cup}"   

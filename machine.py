@@ -11,5 +11,5 @@ class machine:
         if user.resources.using(used_water,used_coffee,milk_used,cup):
             return f"coffee {type} is ready!!"
         else:
-            return "You dont have enough resources for this {type}"
+            return f"You dont have enough resources for this {type}"
         
