@@ -13,3 +13,12 @@ class resource:
          return True
       else:
          return False
+  def refilling_machine(user):
+     user.water=100
+     user.coffeeBean=50
+     user.milk = 200
+     user.cups=20  
+     print("MAchine Refilled successfully")
+
+  def current_Status(user):
+     return "water:user.water ml , coffeeBean=user.coffeeBean gm , MILK:user.milk ml,cups:user.cup"   
