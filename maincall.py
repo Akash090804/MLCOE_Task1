@@ -16,9 +16,9 @@ def main():
         print("3. Americano")
         print("4. Mocha")
         print("5. Cappuccino")
-        print("6. Show machine status")
-        print("7. Refill the machine")
-        print("8. Exit")
+       
+        print("6. Refill the machine")
+        print("7. Exit")
         print("!-------------------------------------------!")
         choice = input("Enter your choice: ")
         
@@ -32,11 +32,10 @@ def main():
             print(coffee_machine.make_coffee("Mocha")) 
         elif choice == "5":
             print(coffee_machine.make_coffee("Cappuccino"))  
+        
         elif choice == "6":
-            print(resources.current_Status())
-        elif choice == "7":
             resources.refilling_machine()
-        elif choice == "8":
+        elif choice == "7":
             print("See you soon!")
             break
         else:
