@@ -1,5 +1,5 @@
 class machine:
-    def resource_initialising(user,resources):
+    def __init__(user,resources):
         user.resources=resources
     def make_coffee(user,type):
         print("preparing "+ type)

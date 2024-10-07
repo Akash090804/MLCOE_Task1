@@ -1,5 +1,5 @@
 class resource:
-  def initialisation(user,water=100,coffeeBean=50,milk=200,cups=20):
+  def __init__(user,water=100,coffeeBean=50,milk=200,cups=20):
     user.water=water
     user.coffeeBean=coffeeBean
     user.milk=milk
@@ -21,4 +21,4 @@ class resource:
      print("MAchine Refilled successfully")
 
   def current_Status(user):
-     return "water:user.water ml , coffeeBean=user.coffeeBean gm , MILK:user.milk ml,cups:user.cup"   
+     return f"water:user.water ml , coffeeBean=user.coffeeBean gm , MILK:user.milk ml,cups:user.cup"   
