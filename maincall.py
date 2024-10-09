@@ -5,7 +5,6 @@ from machine import machine
 
 def main():
     # object instantiation of previously defined classes
-    
     resources = resource()
     coffee_machine = machine(resources)
     print("!---------------------------------------!")
